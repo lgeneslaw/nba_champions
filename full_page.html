@@ -3,7 +3,29 @@
 <body>
 <link rel="stylesheet" type="text/css" href="design.css"/>
 <link rel="stylesheet" type="text/css" href="style.css"/>
+
+
 <script type="text/javascript" src="http://d2ft4b0ve1aur1.cloudfront.net/js-313/sr.gzipcheck.js.jgz"></script>
+
+<script type="text/javascript">
+(function () {
+    var sr_css_file = 'http://d2ft4b0ve1aur1.cloudfront.net/css-313/sr-bbr-min.css';
+    if (sr_gzipEnabled) {
+       sr_css_file = 'http://d2ft4b0ve1aur1.cloudfront.net/css-313/sr-bbr-min-gz.css';
+    }
+    var head = document.getElementsByTagName("head")[0];
+    if (head) {
+	var scriptStyles = document.createElement("link");
+	scriptStyles.rel = "stylesheet";
+	scriptStyles.type = "text/css";
+	scriptStyles.href = sr_css_file;
+	head.appendChild(scriptStyles);
+	//alert('adding css to header:'+sr_css_file);
+    }
+}());
+</script>
+
+
 <base href="http://basketball-reference.com">
 <base target="_blank" href="http://basketball-reference.com">
 </head>

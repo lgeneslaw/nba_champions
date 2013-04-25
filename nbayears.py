@@ -67,4 +67,3 @@ for i in years:
     print "</tr>"
     print "</table>"
 print "</body>\n</html>"
-
