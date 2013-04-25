@@ -38,7 +38,7 @@ print "<base href=\"http://basketball-reference.com\">"
 print "<base target=\"_blank\" href=\"http://basketball-reference.com\">"
 print "</head>"
 for i in years:
-    print "<p id=\"" + i + "\" align=\"center\">" + i + "<br></p>"
+    print "<p id=\"" + i + "\" ><a href=\"" + baseurl1 + i + ".html\"><br>" + i + "<br></p>"
     print "<table id=\"teams\">"
     print "<tr>"
     for j in champs[i]:
@@ -54,7 +54,7 @@ for i in years:
             else:
                 break
 
-        print "<td id=\"team_name\" align=\"center\"><b>" + team_name + "</b></td>"
+        print "<td id=\"team_name\"><a href=\"" + j + "\" align=\"center\"><b>" + team_name + "</b></a></td>"
     print "</tr>"
     print "<tr>"
     for j in champs[i]:
