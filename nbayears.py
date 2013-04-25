@@ -27,27 +27,38 @@ for i in years:
     a = td.findAll("a")
     links = [""] * 2
     for j in range(0, 2):
-    #teams[2012 - int(i)] = [a[j].innerHtml, a[j]["href"]]
         links[j] = a[j]["href"]
 
     champs[i] = links
-    #print teams
 
 print "<html>\n<title>Championship Series</title>\n<body>"
-print "<head>\n<script style=\"text/css\">"
-print "p {font-size:36px;}"
-print "</script>"
+print "<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"/>"
+print "<link rel=\"stylesheet\" type=\"text/css\" href=\"design.css\"/>"
+print "<base href=\"http://basketball-reference.com\">"
+print "<base target=\"_blank\" href=\"http://basketball-reference.com\">"
 print "</head>"
 for i in years:
-    print "<p align=\"center\">" + i + "<br></p>"
-    print "<table>"
+    print "<p id=\"" + i + "\" align=\"center\">" + i + "<br></p>"
+    print "<table id=\"teams\">"
     print "<tr>"
     for j in champs[i]:
-        print "<td align=\"center\"><b>" + j + "</b></td>"
+        url = base + j
+        team = BeautifulSoup(urllib2.urlopen(url))
+        title = team.title.findAll(text=True)[0]
+        title = title.split(' ')
+        title.pop(0)
+        team_name = ""
+        for word in title:
+            if word != 'Roster':
+                team_name = team_name + word +  " "
+            else:
+                break
+
+        print "<td id=\"team_name\" align=\"center\"><b>" + team_name + "</b></td>"
     print "</tr>"
     print "<tr>"
     for j in champs[i]:
-        print "<td>"
+        print "<td id=\"no-outline\">"
         url = base + j
         soup = BeautifulSoup(urllib2.urlopen(url))
         table = soup.findAll("table")[4]

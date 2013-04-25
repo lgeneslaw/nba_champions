@@ -1,30 +1,20 @@
 <html>
 <title>Championship Series</title>
 <body>
-<head>
+<link rel="stylesheet" type="text/css" href="design.css"/>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<script type="text/javascript" src="http://d2ft4b0ve1aur1.cloudfront.net/js-313/sr.gzipcheck.js.jgz"></script>
 <base href="http://basketball-reference.com">
 <base target="_blank" href="http://basketball-reference.com">
-<style>
-p {font-size:36px;}
-table
-{
-border-collapse:collapse;
-}
-#inner
-{
-border:1px solid black;
-}
-</style>
-
 </head>
-<p align="center">2012<br></p>
-<table>
+<p id="2012" align="center">2012<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/MIA/2012.html</b></td>
-<td align="center"><b>/teams/OKC/2012.html</b></td>
+<td id="team_name" align="center"><b>Miami Heat </b></td>
+<td id="team_name" align="center"><b>Oklahoma City Thunder </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -475,7 +465,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -928,14 +918,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">2011<br></p>
-<table>
+<p id="2011" align="center">2011<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/DAL/2011.html</b></td>
-<td align="center"><b>/teams/MIA/2011.html</b></td>
+<td id="team_name" align="center"><b>Dallas Mavericks </b></td>
+<td id="team_name" align="center"><b>Miami Heat </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -1203,32 +1193,6 @@ border:1px solid black;
 </tr>
 <tr class="">
 <td align="right" csk="10">10</td>
-<td align="left" csk="Brewer,Corey"><a href="/players/b/breweco01.html">Corey Brewer</a></td>
-<td align="right">24</td>
-<td align="right"><a href="/players/b/breweco01/gamelog/2011/">13</a></td>
-<td align="right">2</td>
-<td align="right">11.4</td>
-<td align="right">1.9</td>
-<td align="right">3.9</td>
-<td align="right">.490</td>
-<td align="right">0.3</td>
-<td align="right">1.0</td>
-<td align="right">.308</td>
-<td align="right">1.2</td>
-<td align="right">1.6</td>
-<td align="right">.714</td>
-<td align="right">0.9</td>
-<td align="right">0.8</td>
-<td align="right">1.8</td>
-<td align="right">0.9</td>
-<td align="right">0.8</td>
-<td align="right">0.2</td>
-<td align="right">0.8</td>
-<td align="right">1.9</td>
-<td align="right">5.3</td>
-</tr>
-<tr class="">
-<td align="right" csk="11">11</td>
 <td align="left" csk="Stevenson,DeShawn"><a href="/players/s/stevede01.html">DeShawn Stevenson</a></td>
 <td align="right">29</td>
 <td align="right"><a href="/players/s/stevede01/gamelog/2011/">72</a></td>
@@ -1251,6 +1215,32 @@ border:1px solid black;
 <td align="right">0.1</td>
 <td align="right">0.6</td>
 <td align="right">1.0</td>
+<td align="right">5.3</td>
+</tr>
+<tr class="">
+<td align="right" csk="11">11</td>
+<td align="left" csk="Brewer,Corey"><a href="/players/b/breweco01.html">Corey Brewer</a></td>
+<td align="right">24</td>
+<td align="right"><a href="/players/b/breweco01/gamelog/2011/">13</a></td>
+<td align="right">2</td>
+<td align="right">11.4</td>
+<td align="right">1.9</td>
+<td align="right">3.9</td>
+<td align="right">.490</td>
+<td align="right">0.3</td>
+<td align="right">1.0</td>
+<td align="right">.308</td>
+<td align="right">1.2</td>
+<td align="right">1.6</td>
+<td align="right">.714</td>
+<td align="right">0.9</td>
+<td align="right">0.8</td>
+<td align="right">1.8</td>
+<td align="right">0.9</td>
+<td align="right">0.8</td>
+<td align="right">0.2</td>
+<td align="right">0.8</td>
+<td align="right">1.9</td>
 <td align="right">5.3</td>
 </tr>
 <tr class="">
@@ -1438,7 +1428,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -1917,14 +1907,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">2010<br></p>
-<table>
+<p id="2010" align="center">2010<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/LAL/2010.html</b></td>
-<td align="center"><b>/teams/BOS/2010.html</b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
+<td id="team_name" align="center"><b>Boston Celtics </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -2297,7 +2287,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -2828,14 +2818,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">2009<br></p>
-<table>
+<p id="2009" align="center">2009<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/LAL/2009.html</b></td>
-<td align="center"><b>/teams/ORL/2009.html</b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
+<td id="team_name" align="center"><b>Orlando Magic </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -3286,7 +3276,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -3739,14 +3729,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">2008<br></p>
-<table>
+<p id="2008" align="center">2008<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/BOS/2008.html</b></td>
-<td align="center"><b>/teams/LAL/2008.html</b></td>
+<td id="team_name" align="center"><b>Boston Celtics </b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -4118,32 +4108,6 @@ border:1px solid black;
 </tr>
 <tr class="">
 <td align="right" csk="14">14</td>
-<td align="left" csk="Pollard,Scot"><a href="/players/p/pollasc01.html">Scot Pollard</a></td>
-<td align="right">32</td>
-<td align="right"><a href="/players/p/pollasc01/gamelog/2008/">22</a></td>
-<td align="right">0</td>
-<td align="right">7.9</td>
-<td align="right">0.5</td>
-<td align="right">1.0</td>
-<td align="right">.522</td>
-<td align="right">0.0</td>
-<td align="right">0.0</td>
-<td align="right"></td>
-<td align="right">0.7</td>
-<td align="right">1.0</td>
-<td align="right">.682</td>
-<td align="right">0.6</td>
-<td align="right">1.0</td>
-<td align="right">1.7</td>
-<td align="right">0.1</td>
-<td align="right">0.1</td>
-<td align="right">0.3</td>
-<td align="right">0.2</td>
-<td align="right">2.0</td>
-<td align="right">1.8</td>
-</tr>
-<tr class="">
-<td align="right" csk="15">15</td>
 <td align="left" csk="Scalabrine,Brian"><a href="/players/s/scalabr01.html">Brian Scalabrine</a></td>
 <td align="right">29</td>
 <td align="right"><a href="/players/s/scalabr01/gamelog/2008/">48</a></td>
@@ -4168,10 +4132,36 @@ border:1px solid black;
 <td align="right">1.3</td>
 <td align="right">1.8</td>
 </tr>
+<tr class="">
+<td align="right" csk="15">15</td>
+<td align="left" csk="Pollard,Scot"><a href="/players/p/pollasc01.html">Scot Pollard</a></td>
+<td align="right">32</td>
+<td align="right"><a href="/players/p/pollasc01/gamelog/2008/">22</a></td>
+<td align="right">0</td>
+<td align="right">7.9</td>
+<td align="right">0.5</td>
+<td align="right">1.0</td>
+<td align="right">.522</td>
+<td align="right">0.0</td>
+<td align="right">0.0</td>
+<td align="right"></td>
+<td align="right">0.7</td>
+<td align="right">1.0</td>
+<td align="right">.682</td>
+<td align="right">0.6</td>
+<td align="right">1.0</td>
+<td align="right">1.7</td>
+<td align="right">0.1</td>
+<td align="right">0.1</td>
+<td align="right">0.3</td>
+<td align="right">0.2</td>
+<td align="right">2.0</td>
+<td align="right">1.8</td>
+</tr>
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -4702,14 +4692,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">2007<br></p>
-<table>
+<p id="2007" align="center">2007<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/SAS/2007.html</b></td>
-<td align="center"><b>/teams/CLE/2007.html</b></td>
+<td id="team_name" align="center"><b>San Antonio Spurs </b></td>
+<td id="team_name" align="center"><b>Cleveland Cavaliers </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -5160,7 +5150,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -5587,14 +5577,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">2006<br></p>
-<table>
+<p id="2006" align="center">2006<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/MIA/2006.html</b></td>
-<td align="center"><b>/teams/DAL/2006.html</b></td>
+<td id="team_name" align="center"><b>Miami Heat </b></td>
+<td id="team_name" align="center"><b>Dallas Mavericks </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -6071,7 +6061,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -6391,32 +6381,6 @@ border:1px solid black;
 </tr>
 <tr class="">
 <td align="right" csk="12">12</td>
-<td align="left" csk="Podkolzin,Pavel"><a href="/players/p/podkopa01.html">Pavel Podkolzin</a></td>
-<td align="right">21</td>
-<td align="right"><a href="/players/p/podkopa01/gamelog/2006/">1</a></td>
-<td align="right">0</td>
-<td align="right">18.0</td>
-<td align="right">0.0</td>
-<td align="right">2.0</td>
-<td align="right">.000</td>
-<td align="right">0.0</td>
-<td align="right">0.0</td>
-<td align="right"></td>
-<td align="right">3.0</td>
-<td align="right">6.0</td>
-<td align="right">.500</td>
-<td align="right">0.0</td>
-<td align="right">7.0</td>
-<td align="right">7.0</td>
-<td align="right">0.0</td>
-<td align="right">0.0</td>
-<td align="right">1.0</td>
-<td align="right">2.0</td>
-<td align="right">0.0</td>
-<td align="right">3.0</td>
-</tr>
-<tr class="">
-<td align="right" csk="13">13</td>
 <td align="left" csk="Powell,Josh"><a href="/players/p/poweljo01.html">Josh Powell</a></td>
 <td align="right">23</td>
 <td align="right"><a href="/players/p/poweljo01/gamelog/2006/">37</a></td>
@@ -6439,6 +6403,32 @@ border:1px solid black;
 <td align="right">0.1</td>
 <td align="right">0.6</td>
 <td align="right">1.4</td>
+<td align="right">3.0</td>
+</tr>
+<tr class="">
+<td align="right" csk="13">13</td>
+<td align="left" csk="Podkolzin,Pavel"><a href="/players/p/podkopa01.html">Pavel Podkolzin</a></td>
+<td align="right">21</td>
+<td align="right"><a href="/players/p/podkopa01/gamelog/2006/">1</a></td>
+<td align="right">0</td>
+<td align="right">18.0</td>
+<td align="right">0.0</td>
+<td align="right">2.0</td>
+<td align="right">.000</td>
+<td align="right">0.0</td>
+<td align="right">0.0</td>
+<td align="right"></td>
+<td align="right">3.0</td>
+<td align="right">6.0</td>
+<td align="right">.500</td>
+<td align="right">0.0</td>
+<td align="right">7.0</td>
+<td align="right">7.0</td>
+<td align="right">0.0</td>
+<td align="right">0.0</td>
+<td align="right">1.0</td>
+<td align="right">2.0</td>
+<td align="right">0.0</td>
 <td align="right">3.0</td>
 </tr>
 <tr class="">
@@ -6524,14 +6514,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">2005<br></p>
-<table>
+<p id="2005" align="center">2005<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/SAS/2005.html</b></td>
-<td align="center"><b>/teams/DET/2005.html</b></td>
+<td id="team_name" align="center"><b>San Antonio Spurs </b></td>
+<td id="team_name" align="center"><b>Detroit Pistons </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -6695,32 +6685,6 @@ border:1px solid black;
 </tr>
 <tr class="">
 <td align="right" csk="6">6</td>
-<td align="left" csk="Barry,Brent"><a href="/players/b/barrybr01.html">Brent Barry</a></td>
-<td align="right">33</td>
-<td align="right"><a href="/players/b/barrybr01/gamelog/2005/">81</a></td>
-<td align="right">8</td>
-<td align="right">21.5</td>
-<td align="right">2.4</td>
-<td align="right">5.7</td>
-<td align="right">.423</td>
-<td align="right">1.2</td>
-<td align="right">3.5</td>
-<td align="right">.357</td>
-<td align="right">1.4</td>
-<td align="right">1.7</td>
-<td align="right">.837</td>
-<td align="right">0.4</td>
-<td align="right">2.0</td>
-<td align="right">2.3</td>
-<td align="right">2.2</td>
-<td align="right">0.5</td>
-<td align="right">0.2</td>
-<td align="right">0.8</td>
-<td align="right">1.5</td>
-<td align="right">7.4</td>
-</tr>
-<tr class="">
-<td align="right" csk="7">7</td>
 <td align="left" csk="Brown,Devin"><a href="/players/b/brownde02.html">Devin Brown</a></td>
 <td align="right">26</td>
 <td align="right"><a href="/players/b/brownde02/gamelog/2005/">67</a></td>
@@ -6743,6 +6707,32 @@ border:1px solid black;
 <td align="right">0.2</td>
 <td align="right">0.8</td>
 <td align="right">1.2</td>
+<td align="right">7.4</td>
+</tr>
+<tr class="">
+<td align="right" csk="7">7</td>
+<td align="left" csk="Barry,Brent"><a href="/players/b/barrybr01.html">Brent Barry</a></td>
+<td align="right">33</td>
+<td align="right"><a href="/players/b/barrybr01/gamelog/2005/">81</a></td>
+<td align="right">8</td>
+<td align="right">21.5</td>
+<td align="right">2.4</td>
+<td align="right">5.7</td>
+<td align="right">.423</td>
+<td align="right">1.2</td>
+<td align="right">3.5</td>
+<td align="right">.357</td>
+<td align="right">1.4</td>
+<td align="right">1.7</td>
+<td align="right">.837</td>
+<td align="right">0.4</td>
+<td align="right">2.0</td>
+<td align="right">2.3</td>
+<td align="right">2.2</td>
+<td align="right">0.5</td>
+<td align="right">0.2</td>
+<td align="right">0.8</td>
+<td align="right">1.5</td>
 <td align="right">7.4</td>
 </tr>
 <tr class="">
@@ -6825,32 +6815,6 @@ border:1px solid black;
 </tr>
 <tr class="">
 <td align="right" csk="11">11</td>
-<td align="left" csk="Udrih,Beno"><a href="/players/u/udrihbe01.html">Beno Udrih</a></td>
-<td align="right">22</td>
-<td align="right"><a href="/players/u/udrihbe01/gamelog/2005/">80</a></td>
-<td align="right">2</td>
-<td align="right">14.4</td>
-<td align="right">2.2</td>
-<td align="right">4.9</td>
-<td align="right">.444</td>
-<td align="right">0.7</td>
-<td align="right">1.8</td>
-<td align="right">.408</td>
-<td align="right">0.8</td>
-<td align="right">1.1</td>
-<td align="right">.753</td>
-<td align="right">0.2</td>
-<td align="right">0.8</td>
-<td align="right">1.0</td>
-<td align="right">1.9</td>
-<td align="right">0.5</td>
-<td align="right">0.1</td>
-<td align="right">1.0</td>
-<td align="right">1.2</td>
-<td align="right">5.9</td>
-</tr>
-<tr class="">
-<td align="right" csk="12">12</td>
 <td align="left" csk="Nesterovic,Rasho"><a href="/players/n/nestera01.html">Rasho Nesterovic</a></td>
 <td align="right">28</td>
 <td align="right"><a href="/players/n/nestera01/gamelog/2005/">70</a></td>
@@ -6873,6 +6837,32 @@ border:1px solid black;
 <td align="right">1.7</td>
 <td align="right">1.0</td>
 <td align="right">3.0</td>
+<td align="right">5.9</td>
+</tr>
+<tr class="">
+<td align="right" csk="12">12</td>
+<td align="left" csk="Udrih,Beno"><a href="/players/u/udrihbe01.html">Beno Udrih</a></td>
+<td align="right">22</td>
+<td align="right"><a href="/players/u/udrihbe01/gamelog/2005/">80</a></td>
+<td align="right">2</td>
+<td align="right">14.4</td>
+<td align="right">2.2</td>
+<td align="right">4.9</td>
+<td align="right">.444</td>
+<td align="right">0.7</td>
+<td align="right">1.8</td>
+<td align="right">.408</td>
+<td align="right">0.8</td>
+<td align="right">1.1</td>
+<td align="right">.753</td>
+<td align="right">0.2</td>
+<td align="right">0.8</td>
+<td align="right">1.0</td>
+<td align="right">1.9</td>
+<td align="right">0.5</td>
+<td align="right">0.1</td>
+<td align="right">1.0</td>
+<td align="right">1.2</td>
 <td align="right">5.9</td>
 </tr>
 <tr class="">
@@ -7008,7 +6998,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -7224,32 +7214,6 @@ border:1px solid black;
 </tr>
 <tr class="">
 <td align="right" csk="8">8</td>
-<td align="left" csk="Campbell,Elden"><a href="/players/c/campbel01.html">Elden Campbell</a></td>
-<td align="right">36</td>
-<td align="right"><a href="/players/c/campbel01/gamelog/2005/">30</a></td>
-<td align="right">1</td>
-<td align="right">11.3</td>
-<td align="right">1.3</td>
-<td align="right">3.9</td>
-<td align="right">.336</td>
-<td align="right">0.0</td>
-<td align="right">0.1</td>
-<td align="right">.000</td>
-<td align="right">1.3</td>
-<td align="right">1.7</td>
-<td align="right">.784</td>
-<td align="right">0.8</td>
-<td align="right">1.9</td>
-<td align="right">2.7</td>
-<td align="right">0.5</td>
-<td align="right">0.3</td>
-<td align="right">0.2</td>
-<td align="right">0.9</td>
-<td align="right">1.6</td>
-<td align="right">3.9</td>
-</tr>
-<tr class="">
-<td align="right" csk="9">9</td>
 <td align="left" csk="Delfino,Carlos"><a href="/players/d/delfica01.html">Carlos Delfino</a></td>
 <td align="right">22</td>
 <td align="right"><a href="/players/d/delfica01/gamelog/2005/">30</a></td>
@@ -7272,6 +7236,32 @@ border:1px solid black;
 <td align="right">0.2</td>
 <td align="right">0.8</td>
 <td align="right">1.5</td>
+<td align="right">3.9</td>
+</tr>
+<tr class="">
+<td align="right" csk="9">9</td>
+<td align="left" csk="Campbell,Elden"><a href="/players/c/campbel01.html">Elden Campbell</a></td>
+<td align="right">36</td>
+<td align="right"><a href="/players/c/campbel01/gamelog/2005/">30</a></td>
+<td align="right">1</td>
+<td align="right">11.3</td>
+<td align="right">1.3</td>
+<td align="right">3.9</td>
+<td align="right">.336</td>
+<td align="right">0.0</td>
+<td align="right">0.1</td>
+<td align="right">.000</td>
+<td align="right">1.3</td>
+<td align="right">1.7</td>
+<td align="right">.784</td>
+<td align="right">0.8</td>
+<td align="right">1.9</td>
+<td align="right">2.7</td>
+<td align="right">0.5</td>
+<td align="right">0.3</td>
+<td align="right">0.2</td>
+<td align="right">0.9</td>
+<td align="right">1.6</td>
 <td align="right">3.9</td>
 </tr>
 <tr class="">
@@ -7487,14 +7477,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">2004<br></p>
-<table>
+<p id="2004" align="center">2004<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/DET/2004.html</b></td>
-<td align="center"><b>/teams/LAL/2004.html</b></td>
+<td id="team_name" align="center"><b>Detroit Pistons </b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -7971,7 +7961,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -8450,14 +8440,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">2003<br></p>
-<table>
+<p id="2003" align="center">2003<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/SAS/2003.html</b></td>
-<td align="center"><b>/teams/NJN/2003.html</b></td>
+<td id="team_name" align="center"><b>San Antonio Spurs </b></td>
+<td id="team_name" align="center"><b>New Jersey Nets </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -8882,7 +8872,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -9309,14 +9299,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">2002<br></p>
-<table>
+<p id="2002" align="center">2002<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/LAL/2002.html</b></td>
-<td align="center"><b>/teams/NJN/2002.html</b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
+<td id="team_name" align="center"><b>New Jersey Nets </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -9741,7 +9731,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -10194,14 +10184,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">2001<br></p>
-<table>
+<p id="2001" align="center">2001<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/LAL/2001.html</b></td>
-<td align="center"><b>/teams/PHI/2001.html</b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
+<td id="team_name" align="center"><b>Philadelphia 76ers </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -10626,7 +10616,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -11157,14 +11147,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">2000<br></p>
-<table>
+<p id="2000" align="center">2000<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/LAL/2000.html</b></td>
-<td align="center"><b>/teams/IND/2000.html</b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
+<td id="team_name" align="center"><b>Indiana Pacers </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -11589,7 +11579,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -11990,14 +11980,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1999<br></p>
-<table>
+<p id="1999" align="center">1999<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/SAS/1999.html</b></td>
-<td align="center"><b>/teams/NYK/1999.html</b></td>
+<td id="team_name" align="center"><b>San Antonio Spurs </b></td>
+<td id="team_name" align="center"><b>New York Knicks </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -12109,32 +12099,6 @@ border:1px solid black;
 </tr>
 <tr class="">
 <td align="right" csk="4">4</td>
-<td align="left" csk="Elie,Mario"><a href="/players/e/eliema01.html">Mario Elie</a></td>
-<td align="right">35</td>
-<td align="right"><a href="/players/e/eliema01/gamelog/1999/">47</a></td>
-<td align="right">37</td>
-<td align="right">27.5</td>
-<td align="right">3.3</td>
-<td align="right">7.0</td>
-<td align="right">.471</td>
-<td align="right">0.9</td>
-<td align="right">2.3</td>
-<td align="right">.374</td>
-<td align="right">2.2</td>
-<td align="right">2.5</td>
-<td align="right">.866</td>
-<td align="right">0.8</td>
-<td align="right">2.1</td>
-<td align="right">2.9</td>
-<td align="right">1.9</td>
-<td align="right">1.0</td>
-<td align="right">0.3</td>
-<td align="right">1.3</td>
-<td align="right">1.9</td>
-<td align="right">9.7</td>
-</tr>
-<tr class="">
-<td align="right" csk="5">5</td>
 <td align="left" csk="Johnson,Avery"><a href="/players/j/johnsav01.html">Avery Johnson</a></td>
 <td align="right">33</td>
 <td align="right"><a href="/players/j/johnsav01/gamelog/1999/">50</a></td>
@@ -12157,6 +12121,32 @@ border:1px solid black;
 <td align="right">0.2</td>
 <td align="right">2.2</td>
 <td align="right">2.0</td>
+<td align="right">9.7</td>
+</tr>
+<tr class="">
+<td align="right" csk="5">5</td>
+<td align="left" csk="Elie,Mario"><a href="/players/e/eliema01.html">Mario Elie</a></td>
+<td align="right">35</td>
+<td align="right"><a href="/players/e/eliema01/gamelog/1999/">47</a></td>
+<td align="right">37</td>
+<td align="right">27.5</td>
+<td align="right">3.3</td>
+<td align="right">7.0</td>
+<td align="right">.471</td>
+<td align="right">0.9</td>
+<td align="right">2.3</td>
+<td align="right">.374</td>
+<td align="right">2.2</td>
+<td align="right">2.5</td>
+<td align="right">.866</td>
+<td align="right">0.8</td>
+<td align="right">2.1</td>
+<td align="right">2.9</td>
+<td align="right">1.9</td>
+<td align="right">1.0</td>
+<td align="right">0.3</td>
+<td align="right">1.3</td>
+<td align="right">1.9</td>
 <td align="right">9.7</td>
 </tr>
 <tr class="">
@@ -12396,7 +12386,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -12797,14 +12787,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1998<br></p>
-<table>
+<p id="1998" align="center">1998<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/CHI/1998.html</b></td>
-<td align="center"><b>/teams/UTA/1998.html</b></td>
+<td id="team_name" align="center"><b>Chicago Bulls </b></td>
+<td id="team_name" align="center"><b>Utah Jazz </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -13124,32 +13114,6 @@ border:1px solid black;
 </tr>
 <tr class="">
 <td align="right" csk="12">12</td>
-<td align="left" csk="LaRue,Rusty"><a href="/players/l/larueru01.html">Rusty LaRue</a></td>
-<td align="right">24</td>
-<td align="right"><a href="/players/l/larueru01/gamelog/1998/">14</a></td>
-<td align="right">0</td>
-<td align="right">10.0</td>
-<td align="right">1.4</td>
-<td align="right">3.5</td>
-<td align="right">.408</td>
-<td align="right">0.3</td>
-<td align="right">1.1</td>
-<td align="right">.250</td>
-<td align="right">0.4</td>
-<td align="right">0.6</td>
-<td align="right">.625</td>
-<td align="right">0.1</td>
-<td align="right">0.5</td>
-<td align="right">0.6</td>
-<td align="right">0.4</td>
-<td align="right">0.2</td>
-<td align="right">0.1</td>
-<td align="right">0.4</td>
-<td align="right">0.9</td>
-<td align="right">3.5</td>
-</tr>
-<tr class="">
-<td align="right" csk="13">13</td>
 <td align="left" csk="Wennington,Bill"><a href="/players/w/wennibi01.html">Bill Wennington</a></td>
 <td align="right">34</td>
 <td align="right"><a href="/players/w/wennibi01/gamelog/1998/">48</a></td>
@@ -13172,6 +13136,32 @@ border:1px solid black;
 <td align="right">0.1</td>
 <td align="right">0.3</td>
 <td align="right">1.6</td>
+<td align="right">3.5</td>
+</tr>
+<tr class="">
+<td align="right" csk="13">13</td>
+<td align="left" csk="LaRue,Rusty"><a href="/players/l/larueru01.html">Rusty LaRue</a></td>
+<td align="right">24</td>
+<td align="right"><a href="/players/l/larueru01/gamelog/1998/">14</a></td>
+<td align="right">0</td>
+<td align="right">10.0</td>
+<td align="right">1.4</td>
+<td align="right">3.5</td>
+<td align="right">.408</td>
+<td align="right">0.3</td>
+<td align="right">1.1</td>
+<td align="right">.250</td>
+<td align="right">0.4</td>
+<td align="right">0.6</td>
+<td align="right">.625</td>
+<td align="right">0.1</td>
+<td align="right">0.5</td>
+<td align="right">0.6</td>
+<td align="right">0.4</td>
+<td align="right">0.2</td>
+<td align="right">0.1</td>
+<td align="right">0.4</td>
+<td align="right">0.9</td>
 <td align="right">3.5</td>
 </tr>
 <tr class="">
@@ -13281,7 +13271,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -13682,14 +13672,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1997<br></p>
-<table>
+<p id="1997" align="center">1997<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/CHI/1997.html</b></td>
-<td align="center"><b>/teams/UTA/1997.html</b></td>
+<td id="team_name" align="center"><b>Chicago Bulls </b></td>
+<td id="team_name" align="center"><b>Utah Jazz </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -14114,7 +14104,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -14541,14 +14531,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1996<br></p>
-<table>
+<p id="1996" align="center">1996<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/CHI/1996.html</b></td>
-<td align="center"><b>/teams/SEA/1996.html</b></td>
+<td id="team_name" align="center"><b>Chicago Bulls </b></td>
+<td id="team_name" align="center"><b>Seattle SuperSonics </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -14973,7 +14963,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -15348,14 +15338,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1995<br></p>
-<table>
+<p id="1995" align="center">1995<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/HOU/1995.html</b></td>
-<td align="center"><b>/teams/ORL/1995.html</b></td>
+<td id="team_name" align="center"><b>Houston Rockets </b></td>
+<td id="team_name" align="center"><b>Orlando Magic </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -15832,7 +15822,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -16259,14 +16249,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1994<br></p>
-<table>
+<p id="1994" align="center">1994<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/HOU/1994.html</b></td>
-<td align="center"><b>/teams/NYK/1994.html</b></td>
+<td id="team_name" align="center"><b>Houston Rockets </b></td>
+<td id="team_name" align="center"><b>New York Knicks </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -16691,7 +16681,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -17144,14 +17134,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1993<br></p>
-<table>
+<p id="1993" align="center">1993<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/CHI/1993.html</b></td>
-<td align="center"><b>/teams/PHO/1993.html</b></td>
+<td id="team_name" align="center"><b>Chicago Bulls </b></td>
+<td id="team_name" align="center"><b>Phoenix Suns </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -17628,7 +17618,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -18055,14 +18045,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1992<br></p>
-<table>
+<p id="1992" align="center">1992<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/CHI/1992.html</b></td>
-<td align="center"><b>/teams/POR/1992.html</b></td>
+<td id="team_name" align="center"><b>Chicago Bulls </b></td>
+<td id="team_name" align="center"><b>Portland Trail Blazers </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -18226,32 +18216,6 @@ border:1px solid black;
 </tr>
 <tr class="">
 <td align="right" csk="6">6</td>
-<td align="left" csk="King,Stacey"><a href="/players/k/kingst01.html">Stacey King</a></td>
-<td align="right">25</td>
-<td align="right"><a href="/players/k/kingst01/gamelog/1992/">79</a></td>
-<td align="right">12</td>
-<td align="right">16.1</td>
-<td align="right">2.7</td>
-<td align="right">5.4</td>
-<td align="right">.506</td>
-<td align="right">0.0</td>
-<td align="right">0.1</td>
-<td align="right">.400</td>
-<td align="right">1.5</td>
-<td align="right">2.0</td>
-<td align="right">.753</td>
-<td align="right">1.1</td>
-<td align="right">1.5</td>
-<td align="right">2.6</td>
-<td align="right">1.0</td>
-<td align="right">0.3</td>
-<td align="right">0.3</td>
-<td align="right">1.0</td>
-<td align="right">1.6</td>
-<td align="right">7.0</td>
-</tr>
-<tr class="">
-<td align="right" csk="7">7</td>
 <td align="left" csk="Paxson,John"><a href="/players/p/paxsojo01.html">John Paxson</a></td>
 <td align="right">31</td>
 <td align="right"><a href="/players/p/paxsojo01/gamelog/1992/">79</a></td>
@@ -18274,6 +18238,32 @@ border:1px solid black;
 <td align="right">0.1</td>
 <td align="right">0.6</td>
 <td align="right">1.8</td>
+<td align="right">7.0</td>
+</tr>
+<tr class="">
+<td align="right" csk="7">7</td>
+<td align="left" csk="King,Stacey"><a href="/players/k/kingst01.html">Stacey King</a></td>
+<td align="right">25</td>
+<td align="right"><a href="/players/k/kingst01/gamelog/1992/">79</a></td>
+<td align="right">12</td>
+<td align="right">16.1</td>
+<td align="right">2.7</td>
+<td align="right">5.4</td>
+<td align="right">.506</td>
+<td align="right">0.0</td>
+<td align="right">0.1</td>
+<td align="right">.400</td>
+<td align="right">1.5</td>
+<td align="right">2.0</td>
+<td align="right">.753</td>
+<td align="right">1.1</td>
+<td align="right">1.5</td>
+<td align="right">2.6</td>
+<td align="right">1.0</td>
+<td align="right">0.3</td>
+<td align="right">0.3</td>
+<td align="right">1.0</td>
+<td align="right">1.6</td>
 <td align="right">7.0</td>
 </tr>
 <tr class="">
@@ -18513,7 +18503,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -18914,14 +18904,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1991<br></p>
-<table>
+<p id="1991" align="center">1991<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/CHI/1991.html</b></td>
-<td align="center"><b>/teams/LAL/1991.html</b></td>
+<td id="team_name" align="center"><b>Chicago Bulls </b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -19268,7 +19258,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -19643,14 +19633,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1990<br></p>
-<table>
+<p id="1990" align="center">1990<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/DET/1990.html</b></td>
-<td align="center"><b>/teams/POR/1990.html</b></td>
+<td id="team_name" align="center"><b>Detroit Pistons </b></td>
+<td id="team_name" align="center"><b>Portland Trail Blazers </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -20049,7 +20039,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -20424,14 +20414,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1989<br></p>
-<table>
+<p id="1989" align="center">1989<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/DET/1989.html</b></td>
-<td align="center"><b>/teams/LAL/1989.html</b></td>
+<td id="team_name" align="center"><b>Detroit Pistons </b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -20908,7 +20898,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -21257,14 +21247,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1988<br></p>
-<table>
+<p id="1988" align="center">1988<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/LAL/1988.html</b></td>
-<td align="center"><b>/teams/DET/1988.html</b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
+<td id="team_name" align="center"><b>Detroit Pistons </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -21689,7 +21679,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -22116,14 +22106,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1987<br></p>
-<table>
+<p id="1987" align="center">1987<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/LAL/1987.html</b></td>
-<td align="center"><b>/teams/BOS/1987.html</b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
+<td id="team_name" align="center"><b>Boston Celtics </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -22496,7 +22486,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -22949,14 +22939,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1986<br></p>
-<table>
+<p id="1986" align="center">1986<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/BOS/1986.html</b></td>
-<td align="center"><b>/teams/HOU/1986.html</b></td>
+<td id="team_name" align="center"><b>Boston Celtics </b></td>
+<td id="team_name" align="center"><b>Houston Rockets </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -23329,7 +23319,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -23704,14 +23694,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1985<br></p>
-<table>
+<p id="1985" align="center">1985<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/LAL/1985.html</b></td>
-<td align="center"><b>/teams/BOS/1985.html</b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
+<td id="team_name" align="center"><b>Boston Celtics </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -24110,7 +24100,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -24485,14 +24475,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1984<br></p>
-<table>
+<p id="1984" align="center">1984<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/BOS/1984.html</b></td>
-<td align="center"><b>/teams/LAL/1984.html</b></td>
+<td id="team_name" align="center"><b>Boston Celtics </b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -24839,7 +24829,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -25240,14 +25230,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1983<br></p>
-<table>
+<p id="1983" align="center">1983<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/PHI/1983.html</b></td>
-<td align="center"><b>/teams/LAL/1983.html</b></td>
+<td id="team_name" align="center"><b>Philadelphia 76ers </b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -25646,7 +25636,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -26099,14 +26089,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1982<br></p>
-<table>
+<p id="1982" align="center">1982<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/LAL/1982.html</b></td>
-<td align="center"><b>/teams/PHI/1982.html</b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
+<td id="team_name" align="center"><b>Philadelphia 76ers </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -26505,7 +26495,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -26643,32 +26633,6 @@ border:1px solid black;
 </tr>
 <tr class="">
 <td align="right" csk="5">5</td>
-<td align="left" csk="Hollins,Lionel"><a href="/players/h/hollili01.html">Lionel Hollins</a></td>
-<td align="right">28</td>
-<td align="right">81</td>
-<td align="right">81</td>
-<td align="right">27.9</td>
-<td align="right">4.7</td>
-<td align="right">9.8</td>
-<td align="right">.477</td>
-<td align="right">0.0</td>
-<td align="right">0.2</td>
-<td align="right">.125</td>
-<td align="right">1.6</td>
-<td align="right">2.3</td>
-<td align="right">.702</td>
-<td align="right">0.4</td>
-<td align="right">1.9</td>
-<td align="right">2.3</td>
-<td align="right">3.9</td>
-<td align="right">1.3</td>
-<td align="right">0.2</td>
-<td align="right">1.8</td>
-<td align="right">2.4</td>
-<td align="right">11.0</td>
-</tr>
-<tr class="">
-<td align="right" csk="6">6</td>
 <td align="left" csk="Dawkins,Darryl"><a href="/players/d/dawkida01.html">Darryl Dawkins</a></td>
 <td align="right">25</td>
 <td align="right">48</td>
@@ -26691,6 +26655,32 @@ border:1px solid black;
 <td align="right">1.1</td>
 <td align="right">2.0</td>
 <td align="right">4.0</td>
+<td align="right">11.0</td>
+</tr>
+<tr class="">
+<td align="right" csk="6">6</td>
+<td align="left" csk="Hollins,Lionel"><a href="/players/h/hollili01.html">Lionel Hollins</a></td>
+<td align="right">28</td>
+<td align="right">81</td>
+<td align="right">81</td>
+<td align="right">27.9</td>
+<td align="right">4.7</td>
+<td align="right">9.8</td>
+<td align="right">.477</td>
+<td align="right">0.0</td>
+<td align="right">0.2</td>
+<td align="right">.125</td>
+<td align="right">1.6</td>
+<td align="right">2.3</td>
+<td align="right">.702</td>
+<td align="right">0.4</td>
+<td align="right">1.9</td>
+<td align="right">2.3</td>
+<td align="right">3.9</td>
+<td align="right">1.3</td>
+<td align="right">0.2</td>
+<td align="right">1.8</td>
+<td align="right">2.4</td>
 <td align="right">11.0</td>
 </tr>
 <tr class="">
@@ -26880,14 +26870,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1981<br></p>
-<table>
+<p id="1981" align="center">1981<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/BOS/1981.html</b></td>
-<td align="center"><b>/teams/HOU/1981.html</b></td>
+<td id="team_name" align="center"><b>Boston Celtics </b></td>
+<td id="team_name" align="center"><b>Houston Rockets </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -27234,7 +27224,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -27609,14 +27599,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1980<br></p>
-<table>
+<p id="1980" align="center">1980<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/LAL/1980.html</b></td>
-<td align="center"><b>/teams/PHI/1980.html</b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
+<td id="team_name" align="center"><b>Philadelphia 76ers </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -28041,7 +28031,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -28442,14 +28432,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1979<br></p>
-<table>
+<p id="1979" align="center">1979<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/SEA/1979.html</b></td>
-<td align="center"><b>/teams/WSB/1979.html</b></td>
+<td id="team_name" align="center"><b>Seattle SuperSonics </b></td>
+<td id="team_name" align="center"><b>Washington Bullets </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -28848,7 +28838,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -29197,14 +29187,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1978<br></p>
-<table>
+<p id="1978" align="center">1978<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/WSB/1978.html</b></td>
-<td align="center"><b>/teams/SEA/1978.html</b></td>
+<td id="team_name" align="center"><b>Washington Bullets </b></td>
+<td id="team_name" align="center"><b>Seattle SuperSonics </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -29551,7 +29541,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -29978,14 +29968,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1977<br></p>
-<table>
+<p id="1977" align="center">1977<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/POR/1977.html</b></td>
-<td align="center"><b>/teams/PHI/1977.html</b></td>
+<td id="team_name" align="center"><b>Portland Trail Blazers </b></td>
+<td id="team_name" align="center"><b>Philadelphia 76ers </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -30358,7 +30348,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -30759,14 +30749,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1976<br></p>
-<table>
+<p id="1976" align="center">1976<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/BOS/1976.html</b></td>
-<td align="center"><b>/teams/PHO/1976.html</b></td>
+<td id="team_name" align="center"><b>Boston Celtics </b></td>
+<td id="team_name" align="center"><b>Phoenix Suns </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -31139,7 +31129,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -31566,14 +31556,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1975<br></p>
-<table>
+<p id="1975" align="center">1975<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/GSW/1975.html</b></td>
-<td align="center"><b>/teams/WSB/1975.html</b></td>
+<td id="team_name" align="center"><b>Golden State Warriors </b></td>
+<td id="team_name" align="center"><b>Washington Bullets </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -31946,7 +31936,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -32321,14 +32311,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1974<br></p>
-<table>
+<p id="1974" align="center">1974<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/BOS/1974.html</b></td>
-<td align="center"><b>/teams/MIL/1974.html</b></td>
+<td id="team_name" align="center"><b>Boston Celtics </b></td>
+<td id="team_name" align="center"><b>Milwaukee Bucks </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -32440,32 +32430,6 @@ border:1px solid black;
 </tr>
 <tr class="">
 <td align="right" csk="4">4</td>
-<td align="left" csk="Silas,Paul"><a href="/players/s/silaspa01.html">Paul Silas</a></td>
-<td align="right">30</td>
-<td align="right">82</td>
-<td align="right"></td>
-<td align="right">31.7</td>
-<td align="right">4.1</td>
-<td align="right">9.4</td>
-<td align="right">.440</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right">3.2</td>
-<td align="right">4.1</td>
-<td align="right">.783</td>
-<td align="right">4.1</td>
-<td align="right">7.1</td>
-<td align="right">11.2</td>
-<td align="right">2.3</td>
-<td align="right">0.8</td>
-<td align="right">0.2</td>
-<td align="right"></td>
-<td align="right">3.0</td>
-<td align="right">11.5</td>
-</tr>
-<tr class="">
-<td align="right" csk="5">5</td>
 <td align="left" csk="Nelson,Don"><a href="/players/n/nelsodo01.html">Don Nelson</a></td>
 <td align="right">33</td>
 <td align="right">82</td>
@@ -32488,6 +32452,32 @@ border:1px solid black;
 <td align="right">0.2</td>
 <td align="right"></td>
 <td align="right">2.3</td>
+<td align="right">11.5</td>
+</tr>
+<tr class="">
+<td align="right" csk="5">5</td>
+<td align="left" csk="Silas,Paul"><a href="/players/s/silaspa01.html">Paul Silas</a></td>
+<td align="right">30</td>
+<td align="right">82</td>
+<td align="right"></td>
+<td align="right">31.7</td>
+<td align="right">4.1</td>
+<td align="right">9.4</td>
+<td align="right">.440</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">3.2</td>
+<td align="right">4.1</td>
+<td align="right">.783</td>
+<td align="right">4.1</td>
+<td align="right">7.1</td>
+<td align="right">11.2</td>
+<td align="right">2.3</td>
+<td align="right">0.8</td>
+<td align="right">0.2</td>
+<td align="right"></td>
+<td align="right">3.0</td>
 <td align="right">11.5</td>
 </tr>
 <tr class="">
@@ -32675,7 +32665,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -32865,32 +32855,6 @@ border:1px solid black;
 </tr>
 <tr class="">
 <td align="right" csk="7">7</td>
-<td align="left" csk="Warner,Cornell"><a href="/players/w/warneco01.html">Cornell Warner</a></td>
-<td align="right">25</td>
-<td align="right">67</td>
-<td align="right"></td>
-<td align="right">20.2</td>
-<td align="right">2.6</td>
-<td align="right">5.0</td>
-<td align="right">.512</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right">1.2</td>
-<td align="right">1.6</td>
-<td align="right">.736</td>
-<td align="right">1.5</td>
-<td align="right">4.2</td>
-<td align="right">5.7</td>
-<td align="right">1.0</td>
-<td align="right">0.4</td>
-<td align="right">0.6</td>
-<td align="right"></td>
-<td align="right">2.9</td>
-<td align="right">6.3</td>
-</tr>
-<tr class="">
-<td align="right" csk="8">8</td>
 <td align="left" csk="Williams,Ron"><a href="/players/w/williro01.html">Ron Williams</a></td>
 <td align="right">29</td>
 <td align="right">71</td>
@@ -32913,6 +32877,32 @@ border:1px solid black;
 <td align="right">0.0</td>
 <td align="right"></td>
 <td align="right">1.6</td>
+<td align="right">6.3</td>
+</tr>
+<tr class="">
+<td align="right" csk="8">8</td>
+<td align="left" csk="Warner,Cornell"><a href="/players/w/warneco01.html">Cornell Warner</a></td>
+<td align="right">25</td>
+<td align="right">67</td>
+<td align="right"></td>
+<td align="right">20.2</td>
+<td align="right">2.6</td>
+<td align="right">5.0</td>
+<td align="right">.512</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">1.2</td>
+<td align="right">1.6</td>
+<td align="right">.736</td>
+<td align="right">1.5</td>
+<td align="right">4.2</td>
+<td align="right">5.7</td>
+<td align="right">1.0</td>
+<td align="right">0.4</td>
+<td align="right">0.6</td>
+<td align="right"></td>
+<td align="right">2.9</td>
 <td align="right">6.3</td>
 </tr>
 <tr class="">
@@ -33076,14 +33066,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1973<br></p>
-<table>
+<p id="1973" align="center">1973<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/NYK/1973.html</b></td>
-<td align="center"><b>/teams/LAL/1973.html</b></td>
+<td id="team_name" align="center"><b>New York Knicks </b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -33482,7 +33472,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -33828,32 +33818,6 @@ border:1px solid black;
 </tr>
 <tr class="">
 <td align="right" csk="13">13</td>
-<td align="left" csk="Trapp,John"><a href="/players/t/trappjo01.html">John Trapp</a></td>
-<td align="right">27</td>
-<td align="right">5</td>
-<td align="right"></td>
-<td align="right">7.0</td>
-<td align="right">0.6</td>
-<td align="right">2.4</td>
-<td align="right">.250</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right">1.4</td>
-<td align="right">2.0</td>
-<td align="right">.700</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right">2.8</td>
-<td align="right">0.4</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right">2.0</td>
-<td align="right">2.6</td>
-</tr>
-<tr class="">
-<td align="right" csk="14">14</td>
 <td align="left" csk="Ellis,Leroy"><a href="/players/e/ellisle01.html">Leroy Ellis</a></td>
 <td align="right">32</td>
 <td align="right">10</td>
@@ -33876,6 +33840,32 @@ border:1px solid black;
 <td align="right"></td>
 <td align="right"></td>
 <td align="right">1.3</td>
+<td align="right">2.6</td>
+</tr>
+<tr class="">
+<td align="right" csk="14">14</td>
+<td align="left" csk="Trapp,John"><a href="/players/t/trappjo01.html">John Trapp</a></td>
+<td align="right">27</td>
+<td align="right">5</td>
+<td align="right"></td>
+<td align="right">7.0</td>
+<td align="right">0.6</td>
+<td align="right">2.4</td>
+<td align="right">.250</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">1.4</td>
+<td align="right">2.0</td>
+<td align="right">.700</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">2.8</td>
+<td align="right">0.4</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">2.0</td>
 <td align="right">2.6</td>
 </tr>
 <tr class="">
@@ -33935,14 +33925,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1972<br></p>
-<table>
+<p id="1972" align="center">1972<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/LAL/1972.html</b></td>
-<td align="center"><b>/teams/NYK/1972.html</b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
+<td id="team_name" align="center"><b>New York Knicks </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -34184,32 +34174,6 @@ border:1px solid black;
 </tr>
 <tr class="">
 <td align="right" csk="9">9</td>
-<td align="left" csk="Erickson,Keith"><a href="/players/e/erickke01.html">Keith Erickson</a></td>
-<td align="right">27</td>
-<td align="right">15</td>
-<td align="right"></td>
-<td align="right">17.5</td>
-<td align="right">2.7</td>
-<td align="right">5.5</td>
-<td align="right">.482</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right">0.4</td>
-<td align="right">0.5</td>
-<td align="right">.857</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right">2.6</td>
-<td align="right">2.3</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right">1.7</td>
-<td align="right">5.7</td>
-</tr>
-<tr class="">
-<td align="right" csk="10">10</td>
 <td align="left" csk="Trapp,John"><a href="/players/t/trappjo01.html">John Trapp</a></td>
 <td align="right">26</td>
 <td align="right">58</td>
@@ -34232,6 +34196,32 @@ border:1px solid black;
 <td align="right"></td>
 <td align="right"></td>
 <td align="right">2.2</td>
+<td align="right">5.7</td>
+</tr>
+<tr class="">
+<td align="right" csk="10">10</td>
+<td align="left" csk="Erickson,Keith"><a href="/players/e/erickke01.html">Keith Erickson</a></td>
+<td align="right">27</td>
+<td align="right">15</td>
+<td align="right"></td>
+<td align="right">17.5</td>
+<td align="right">2.7</td>
+<td align="right">5.5</td>
+<td align="right">.482</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">0.4</td>
+<td align="right">0.5</td>
+<td align="right">.857</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">2.6</td>
+<td align="right">2.3</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">1.7</td>
 <td align="right">5.7</td>
 </tr>
 <tr class="">
@@ -34289,7 +34279,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -34768,14 +34758,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1971<br></p>
-<table>
+<p id="1971" align="center">1971<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/MIL/1971.html</b></td>
-<td align="center"><b>/teams/BAL/1971.html</b></td>
+<td id="team_name" align="center"><b>Milwaukee Bucks </b></td>
+<td id="team_name" align="center"><b>Baltimore Bullets </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -35174,7 +35164,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -35575,14 +35565,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1970<br></p>
-<table>
+<p id="1970" align="center">1970<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/NYK/1970.html</b></td>
-<td align="center"><b>/teams/LAL/1970.html</b></td>
+<td id="team_name" align="center"><b>New York Knicks </b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -35929,7 +35919,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -36304,14 +36294,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1969<br></p>
-<table>
+<p id="1969" align="center">1969<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/BOS/1969.html</b></td>
-<td align="center"><b>/teams/LAL/1969.html</b></td>
+<td id="team_name" align="center"><b>Boston Celtics </b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -36684,7 +36674,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -37007,14 +36997,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1968<br></p>
-<table>
+<p id="1968" align="center">1968<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/BOS/1968.html</b></td>
-<td align="center"><b>/teams/LAL/1968.html</b></td>
+<td id="team_name" align="center"><b>Boston Celtics </b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -37361,7 +37351,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -37736,14 +37726,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1967<br></p>
-<table>
+<p id="1967" align="center">1967<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/PHI/1967.html</b></td>
-<td align="center"><b>/teams/SFW/1967.html</b></td>
+<td id="team_name" align="center"><b>Philadelphia 76ers </b></td>
+<td id="team_name" align="center"><b>San Francisco Warriors </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -38064,7 +38054,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -38439,14 +38429,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1966<br></p>
-<table>
+<p id="1966" align="center">1966<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/BOS/1966.html</b></td>
-<td align="center"><b>/teams/LAL/1966.html</b></td>
+<td id="team_name" align="center"><b>Boston Celtics </b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -38766,32 +38756,6 @@ border:1px solid black;
 </tr>
 <tr class="">
 <td align="right" csk="12">12</td>
-<td align="left" csk="Green,Si"><a href="/players/g/greensi01.html">Si Green</a></td>
-<td align="right">32</td>
-<td align="right">10</td>
-<td align="right"></td>
-<td align="right">9.2</td>
-<td align="right">1.2</td>
-<td align="right">3.1</td>
-<td align="right">.387</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right">0.8</td>
-<td align="right">1.6</td>
-<td align="right">.500</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right">1.1</td>
-<td align="right">0.9</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right">1.6</td>
-<td align="right">3.2</td>
-</tr>
-<tr class="">
-<td align="right" csk="13">13</td>
 <td align="left" csk="Thompson,John"><a href="/players/t/thompjo01.html">John Thompson</a></td>
 <td align="right">24</td>
 <td align="right">10</td>
@@ -38814,6 +38778,32 @@ border:1px solid black;
 <td align="right"></td>
 <td align="right"></td>
 <td align="right">1.5</td>
+<td align="right">3.2</td>
+</tr>
+<tr class="">
+<td align="right" csk="13">13</td>
+<td align="left" csk="Green,Si"><a href="/players/g/greensi01.html">Si Green</a></td>
+<td align="right">32</td>
+<td align="right">10</td>
+<td align="right"></td>
+<td align="right">9.2</td>
+<td align="right">1.2</td>
+<td align="right">3.1</td>
+<td align="right">.387</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">0.8</td>
+<td align="right">1.6</td>
+<td align="right">.500</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">1.1</td>
+<td align="right">0.9</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">1.6</td>
 <td align="right">3.2</td>
 </tr>
 <tr class="">
@@ -38845,7 +38835,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -38983,32 +38973,6 @@ border:1px solid black;
 </tr>
 <tr class="">
 <td align="right" csk="5">5</td>
-<td align="left" csk="Ellis,Leroy"><a href="/players/e/ellisle01.html">Leroy Ellis</a></td>
-<td align="right">25</td>
-<td align="right">80</td>
-<td align="right"></td>
-<td align="right">27.7</td>
-<td align="right">4.9</td>
-<td align="right">11.6</td>
-<td align="right">.424</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right">2.3</td>
-<td align="right">3.2</td>
-<td align="right">.727</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right">9.2</td>
-<td align="right">0.9</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right">2.9</td>
-<td align="right">12.2</td>
-</tr>
-<tr class="">
-<td align="right" csk="6">6</td>
 <td align="left" csk="Boozer,Bob"><a href="/players/b/boozebo01.html">Bob Boozer</a></td>
 <td align="right">28</td>
 <td align="right">78</td>
@@ -39031,6 +38995,32 @@ border:1px solid black;
 <td align="right"></td>
 <td align="right"></td>
 <td align="right">2.5</td>
+<td align="right">12.2</td>
+</tr>
+<tr class="">
+<td align="right" csk="6">6</td>
+<td align="left" csk="Ellis,Leroy"><a href="/players/e/ellisle01.html">Leroy Ellis</a></td>
+<td align="right">25</td>
+<td align="right">80</td>
+<td align="right"></td>
+<td align="right">27.7</td>
+<td align="right">4.9</td>
+<td align="right">11.6</td>
+<td align="right">.424</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">2.3</td>
+<td align="right">3.2</td>
+<td align="right">.727</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">9.2</td>
+<td align="right">0.9</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">2.9</td>
 <td align="right">12.2</td>
 </tr>
 <tr class="">
@@ -39168,14 +39158,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1965<br></p>
-<table>
+<p id="1965" align="center">1965<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/BOS/1965.html</b></td>
-<td align="center"><b>/teams/LAL/1965.html</b></td>
+<td id="team_name" align="center"><b>Boston Celtics </b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -39548,7 +39538,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -39923,14 +39913,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1964<br></p>
-<table>
+<p id="1964" align="center">1964<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/BOS/1964.html</b></td>
-<td align="center"><b>/teams/SFW/1964.html</b></td>
+<td id="team_name" align="center"><b>Boston Celtics </b></td>
+<td id="team_name" align="center"><b>San Francisco Warriors </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -40277,7 +40267,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -40600,14 +40590,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1963<br></p>
-<table>
+<p id="1963" align="center">1963<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/BOS/1963.html</b></td>
-<td align="center"><b>/teams/LAL/1963.html</b></td>
+<td id="team_name" align="center"><b>Boston Celtics </b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -40980,7 +40970,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -41303,14 +41293,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1962<br></p>
-<table>
+<p id="1962" align="center">1962<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/BOS/1962.html</b></td>
-<td align="center"><b>/teams/LAL/1962.html</b></td>
+<td id="team_name" align="center"><b>Boston Celtics </b></td>
+<td id="team_name" align="center"><b>Los Angeles Lakers </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -41659,7 +41649,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -42036,14 +42026,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1961<br></p>
-<table>
+<p id="1961" align="center">1961<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/BOS/1961.html</b></td>
-<td align="center"><b>/teams/STL/1961.html</b></td>
+<td id="team_name" align="center"><b>Boston Celtics </b></td>
+<td id="team_name" align="center"><b>St. Louis Hawks </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -42366,7 +42356,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -42743,14 +42733,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1960<br></p>
-<table>
+<p id="1960" align="center">1960<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/BOS/1960.html</b></td>
-<td align="center"><b>/teams/STL/1960.html</b></td>
+<td id="team_name" align="center"><b>Boston Celtics </b></td>
+<td id="team_name" align="center"><b>St. Louis Hawks </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -43099,7 +43089,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -43528,14 +43518,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1959<br></p>
-<table>
+<p id="1959" align="center">1959<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/BOS/1959.html</b></td>
-<td align="center"><b>/teams/MNL/1959.html</b></td>
+<td id="team_name" align="center"><b>Boston Celtics </b></td>
+<td id="team_name" align="center"><b>Minneapolis Lakers </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -43858,7 +43848,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -44157,14 +44147,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1958<br></p>
-<table>
+<p id="1958" align="center">1958<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/STL/1958.html</b></td>
-<td align="center"><b>/teams/BOS/1958.html</b></td>
+<td id="team_name" align="center"><b>St. Louis Hawks </b></td>
+<td id="team_name" align="center"><b>Boston Celtics </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -44539,7 +44529,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -44864,14 +44854,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1957<br></p>
-<table>
+<p id="1957" align="center">1957<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/BOS/1957.html</b></td>
-<td align="center"><b>/teams/STL/1957.html</b></td>
+<td id="team_name" align="center"><b>Boston Celtics </b></td>
+<td id="team_name" align="center"><b>St. Louis Hawks </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -45220,7 +45210,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -45358,32 +45348,6 @@ border:1px solid black;
 </tr>
 <tr class="">
 <td align="right" csk="5">5</td>
-<td align="left" csk="Share,Chuck"><a href="/players/s/sharech01.html">Chuck Share</a></td>
-<td align="right">29</td>
-<td align="right">72</td>
-<td align="right"></td>
-<td align="right">23.2</td>
-<td align="right">3.3</td>
-<td align="right">7.4</td>
-<td align="right">.439</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right">3.7</td>
-<td align="right">5.5</td>
-<td align="right">.684</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right">8.9</td>
-<td align="right">1.1</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right">3.7</td>
-<td align="right">10.3</td>
-</tr>
-<tr class="">
-<td align="right" csk="6">6</td>
 <td align="left" csk="Naulls,Willie"><a href="/players/n/naullwi01.html">Willie Naulls</a></td>
 <td align="right">22</td>
 <td align="right">19</td>
@@ -45406,6 +45370,32 @@ border:1px solid black;
 <td align="right"></td>
 <td align="right"></td>
 <td align="right">3.0</td>
+<td align="right">10.3</td>
+</tr>
+<tr class="">
+<td align="right" csk="6">6</td>
+<td align="left" csk="Share,Chuck"><a href="/players/s/sharech01.html">Chuck Share</a></td>
+<td align="right">29</td>
+<td align="right">72</td>
+<td align="right"></td>
+<td align="right">23.2</td>
+<td align="right">3.3</td>
+<td align="right">7.4</td>
+<td align="right">.439</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">3.7</td>
+<td align="right">5.5</td>
+<td align="right">.684</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">8.9</td>
+<td align="right">1.1</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">3.7</td>
 <td align="right">10.3</td>
 </tr>
 <tr class="">
@@ -45649,14 +45639,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1956<br></p>
-<table>
+<p id="1956" align="center">1956<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/PHW/1956.html</b></td>
-<td align="center"><b>/teams/FTW/1956.html</b></td>
+<td id="team_name" align="center"><b>Philadelphia Warriors </b></td>
+<td id="team_name" align="center"><b>Fort Wayne Pistons </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -45979,7 +45969,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -46408,14 +46398,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1955<br></p>
-<table>
+<p id="1955" align="center">1955<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/SYR/1955.html</b></td>
-<td align="center"><b>/teams/FTW/1955.html</b></td>
+<td id="team_name" align="center"><b>Syracuse Nationals </b></td>
+<td id="team_name" align="center"><b>Fort Wayne Pistons </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -46790,7 +46780,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -47141,14 +47131,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1954<br></p>
-<table>
+<p id="1954" align="center">1954<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/MNL/1954.html</b></td>
-<td align="center"><b>/teams/SYR/1954.html</b></td>
+<td id="team_name" align="center"><b>Minneapolis Lakers </b></td>
+<td id="team_name" align="center"><b>Syracuse Nationals </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -47471,7 +47461,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -47874,14 +47864,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1953<br></p>
-<table>
+<p id="1953" align="center">1953<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/MNL/1953.html</b></td>
-<td align="center"><b>/teams/NYK/1953.html</b></td>
+<td id="team_name" align="center"><b>Minneapolis Lakers </b></td>
+<td id="team_name" align="center"><b>New York Knicks </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -48178,7 +48168,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -48581,14 +48571,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1952<br></p>
-<table>
+<p id="1952" align="center">1952<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/MNL/1952.html</b></td>
-<td align="center"><b>/teams/NYK/1952.html</b></td>
+<td id="team_name" align="center"><b>Minneapolis Lakers </b></td>
+<td id="team_name" align="center"><b>New York Knicks </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -48911,7 +48901,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -49236,14 +49226,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1951<br></p>
-<table>
+<p id="1951" align="center">1951<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/ROC/1951.html</b></td>
-<td align="center"><b>/teams/NYK/1951.html</b></td>
+<td id="team_name" align="center"><b>Rochester Royals </b></td>
+<td id="team_name" align="center"><b>New York Knicks </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -49566,7 +49556,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -49782,32 +49772,6 @@ border:1px solid black;
 </tr>
 <tr class="">
 <td align="right" csk="8">8</td>
-<td align="left" csk="Ritter,Tex"><a href="/players/r/rittete01.html">Tex Ritter</a></td>
-<td align="right">26</td>
-<td align="right">34</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right">2.9</td>
-<td align="right">8.7</td>
-<td align="right">.337</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right">1.4</td>
-<td align="right">2.1</td>
-<td align="right">.690</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right">1.9</td>
-<td align="right">1.1</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right">1.5</td>
-<td align="right">7.3</td>
-</tr>
-<tr class="">
-<td align="right" csk="9">9</td>
 <td align="left" csk="Lumpp,Ray"><a href="/players/l/lumppra01.html">Ray Lumpp</a></td>
 <td align="right">27</td>
 <td align="right">64</td>
@@ -49833,7 +49797,7 @@ border:1px solid black;
 <td align="right">6.7</td>
 </tr>
 <tr class="">
-<td align="right" csk="10">10</td>
+<td align="right" csk="9">9</td>
 <td align="left" csk="Kaftan,George"><a href="/players/k/kaftage01.html">George Kaftan</a></td>
 <td align="right">22</td>
 <td align="right">61</td>
@@ -49857,6 +49821,32 @@ border:1px solid black;
 <td align="right"></td>
 <td align="right">1.7</td>
 <td align="right">4.9</td>
+</tr>
+<tr class="">
+<td align="right" csk="10">10</td>
+<td align="left" csk="Ritter,Tex"><a href="/players/r/rittete01.html">Tex Ritter</a></td>
+<td align="right">26</td>
+<td align="right">34</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">1.1</td>
+<td align="right">3.0</td>
+<td align="right">.379</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">1.4</td>
+<td align="right">2.1</td>
+<td align="right">.690</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">1.9</td>
+<td align="right">1.1</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">1.5</td>
+<td align="right">3.7</td>
 </tr>
 <tr class="">
 <td align="right" csk="11">11</td>
@@ -49943,14 +49933,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1950<br></p>
-<table>
+<p id="1950" align="center">1950<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/MNL/1950.html</b></td>
-<td align="center"><b>/teams/SYR/1950.html</b></td>
+<td id="team_name" align="center"><b>Minneapolis Lakers </b></td>
+<td id="team_name" align="center"><b>Syracuse Nationals </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -50351,7 +50341,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -50676,14 +50666,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1949<br></p>
-<table>
+<p id="1949" align="center">1949<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/MNL/1949.html</b></td>
-<td align="center"><b>/teams/WSC/1949.html</b></td>
+<td id="team_name" align="center"><b>Minneapolis Lakers </b></td>
+<td id="team_name" align="center"><b>Washington Capitols </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -51110,7 +51100,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -51461,14 +51451,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1948<br></p>
-<table>
+<p id="1948" align="center">1948<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/BLB/1948.html</b></td>
-<td align="center"><b>/teams/PHW/1948.html</b></td>
+<td id="team_name" align="center"><b>Baltimore Bullets </b></td>
+<td id="team_name" align="center"><b>Philadelphia Warriors </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -51973,7 +51963,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -52376,14 +52366,14 @@ border:1px solid black;
 </td>
 </tr>
 </table>
-<p align="center">1947<br></p>
-<table>
+<p id="1947" align="center">1947<br></p>
+<table id="teams">
 <tr>
-<td align="center"><b>/teams/PHW/1947.html</b></td>
-<td align="center"><b>/teams/CHS/1947.html</b></td>
+<td id="team_name" align="center"><b>Philadelphia Warriors </b></td>
+<td id="team_name" align="center"><b>Chicago Stags </b></td>
 </tr>
 <tr>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
@@ -52732,7 +52722,7 @@ border:1px solid black;
 </tbody>
 </table>
 </td>
-<td>
+<td id="no-outline">
 <table class="sortable stats_table" data-freeze="3" id="per_game">
 <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></col></colgroup>
 <thead>
