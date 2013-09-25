@@ -37,7 +37,11 @@ for i in years:
     champs[i] = links  #add these two teams to the overall dictionary
 
 
+#now that champs has been filled with all of the links to the desired tables, start
+#querying basketball-reference.com for those tables and print them in html format.
 
+
+#start of the html file. head, stylesheets, etc.
 print "<html>\n<title>Championship Series</title>\n<body>"
 print "<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"/>"
 print "<link rel=\"stylesheet\" type=\"text/css\" href=\"design.css\"/>"
@@ -45,22 +49,28 @@ print "<base href=\"http://basketball-reference.com\">"
 print "<base target=\"_blank\" href=\"http://basketball-reference.com\">"
 print "</head>"
 for i in years:
+        #print the year and make it a link to that NBA season on basketball-reference.com
     print "<p id=\"" + i + "\" ><a href=\"" + baseurl1 + i + ".html\"><br>" + i + "<br></p>"
+        #each year has a table (1 column, 2 rows) that wraps up the team's tables
     print "<table id=\"teams\">"
     print "<tr>"
     for j in champs[i]:
         url = base + j
+            #go to the team's page
         team = BeautifulSoup(urllib2.urlopen(url))
+            #find out the actual team name
         title = team.title.findAll(text=True)[0]
+            #next few lines isolate the team name
         title = title.split(' ')
         title.pop(0)
         team_name = ""
+            #the team name ends with the word 'Roster'
         for word in title:
             if word != 'Roster':
                 team_name = team_name + word +  " "
             else:
                 break
-
+            #print the team name as a link to the team page during that year
         print "<td id=\"team_name\"><a href=\"" + j + "\" align=\"center\"><b>" + team_name + "</b></a></td>"
     print "</tr>"
     print "<tr>"
@@ -68,6 +78,7 @@ for i in years:
         print "<td id=\"no-outline\">"
         url = base + j
         soup = BeautifulSoup(urllib2.urlopen(url))
+            #table is the actual roster table for the given team
         table = soup.findAll("table")[4]
         print table
         print "</td>"
