@@ -1,35 +1,42 @@
 from bs4 import BeautifulSoup
 import urllib2
 
-years = [0] * 66
-for i in range(0, 66):
-    years[i] = str(2012 - i)
+curr_year = 2013
+first_year = 1947
+num_years = curr_year - first_year + 1
+
+years = [0] * (num_years)
+for i in range(0, num_years):
+    years[i] = str(curr_year - i)
 
 baseurl1 = "http://www.basketball-reference.com/leagues/NBA_"
 baseurl2 = "http://www.basketball-reference.com/leagues/BAA_"
 base = "http://www.basketball-reference.com"
-theurl = baseurl1
-champs = {}
+theurl = baseurl1  
+champs = {}      #will contain the URL of every team during the season that they were in the finals
 url = baseurl1
-teams = [[""] * 2] * 66
+teams = [[""] * 2] * num_years
 for i in years:
     i = str(i)
-    if(int(i) == 1949):
-        theurl = baseurl2
+    if(int(i) == 1949):    #basketball-reference.com uses different URL extensions during
+        theurl = baseurl2    #different time periods, so the URL changes at specific years
     url = theurl + i + ".html"
     soup = BeautifulSoup(urllib2.urlopen(url))
-    if(int(i) > 1970):
+    if(int(i) > 1970):     #again, the pages vary during different time periods
         table = soup.findAll("table")[3]
     else:
         table = soup.findAll("table")[2]
 
+    #the next few lines just work to isolate the URL for the team's page
     td = table.findAll("td")[1]
     a = td.findAll("a")
-    links = [""] * 2
+    links = [""] * 2    #contains the URL of the two teams in the finals that year
     for j in range(0, 2):
         links[j] = a[j]["href"]
 
-    champs[i] = links
+    champs[i] = links  #add these two teams to the overall dictionary
+
+
 
 print "<html>\n<title>Championship Series</title>\n<body>"
 print "<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"/>"
